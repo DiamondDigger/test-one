@@ -1,0 +1,15 @@
+<html>
+<script>
+function writeMessage(){
+  var message,
+      status = true;
+      message = 'Hello';
+      if (status){
+          alert(message + " congratulations - you've done it!!!");
+      } else {
+          alert('something gonna wrong ');
+      }
+}
+writeMessage();
+</script>
+</html>
